@@ -1,7 +1,9 @@
 import { useState, useEffect } from 'react'
 import './App.css'
 import axios from 'axios'
+import 'bootstrap/dist/css/bootstrap.min.css';
 import ActressCard from './assets/ActressCard'
+
 const endpoint = ' https://lanciweb.github.io/demo/api/actresses/'
 function App() {
   const [list, setList] = useState([]);

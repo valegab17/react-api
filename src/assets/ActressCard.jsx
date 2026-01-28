@@ -5,7 +5,7 @@ function ActressCard({list}) {
     list.map((actress)=>{
       return(
         
-        <div key={actress.id}>
+        <div className="container mt-5" key={actress.id}>
         <h2>{actress.name}</h2>
         <p>{actress.birth_year}</p>
         <p>{actress.nationality}</p>
